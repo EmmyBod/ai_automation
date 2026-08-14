@@ -6,5 +6,5 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 100000000,
   },
-  base: '/portfolio_site/',
+  base: '/AI_Automation/',
 });
