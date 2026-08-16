@@ -7,7 +7,14 @@ import { demo } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { list } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { cProject, javaProject, webProject, otherProject } from "../constants";
+import {
+  cProject,
+  javaProject,
+  webProject,
+  otherProject,
+  integrations,
+  all,
+} from "../constants";
 import ProjectList from "./ProjectList";
 import "./Project.scss";
 
@@ -95,27 +102,35 @@ const ProjectCard = ({
   );
 };
 const Project = () => {
-  const [selected, setSelected] = useState("Webflow");
+  const [selected, setSelected] = useState("AI Automation");
   const [data, setData] = useState([]);
 
   useEffect(() => {
     switch (selected) {
-      case "WordPress":
+      case "AI Automation":
         setData(webProject);
         break;
-      case "Webflow":
+      case "AI Agents":
         setData(javaProject);
         break;
-      case "Shopify":
+      case "n8n":
         setData(cProject);
         break;
 
-      case "other":
+      case "CRM & GHL":
         setData(otherProject);
         break;
 
+      case "Integrations":
+        setData(integrations);
+        break;
+
+      case "All":
+        setData(all);
+        break;
+
       default:
-        setData(cProject);
+        setData(webProject);
     }
   }, [selected]);
 

@@ -63,50 +63,13 @@ const Contact = () => {
         console.error(error);
 
         alert("Ahh, something went wrong. Please try again.");
-      }
+      },
     );
 
     if (res.success) {
       console.log("Success", res);
     }
   };
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   setLoading(true);
-
-  //   emailjs
-  //     .send(
-  //       'service_6y5vft7',
-  //       'template_5g175sf',
-  //       {
-  //         from_name: form.name,
-  //         to_name: "Aarti Rathi",
-  //         from_email: form.email,
-  //         to_email: "aarti.rathi1710@gmail.com",
-  //         message: form.message,
-  //       },
-  //       'FMQ4a1hK5NSAkumfj',
-  //     )
-  //     .then(
-  //       () => {
-  //         setLoading(false);
-  //         alert("Thank you. I will get back to you as soon as possible.");
-
-  //         setForm({
-  //           name: "",
-  //           email: "",
-  //           message: "",
-  //         });
-  //       },
-  //       (error) => {
-  //         setLoading(false);
-  //         console.error(error);
-
-  //         alert("Ahh, something went wrong. Please try again.");
-  //       }
-  //     );
-  // };
 
   return (
     <div className={`xl:mt-12 flex gap-2 overflow-hidden contact`}>
@@ -136,7 +99,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your full name?"
+              placeholder="Full Name"
               className="bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium"
             />
           </label>
@@ -147,7 +110,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Email Address"
               className="bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium"
             />
           </label>
@@ -158,7 +121,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="Kindly provide your brand information to get started. You can as well schedule a meeting with me to discuss your project extensively"
+              placeholder="What would you like to automate? Tell me about your process and the outcome you want to achieve."
               className="bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium"
             />
           </label>
@@ -185,11 +148,11 @@ const Contact = () => {
           <article className="contact__option">
             <BsWhatsapp />
             <a
-              href="https://api.whatsapp.com/send/?phone=18595132970&text&app_absent=0&lang=en"
+              href="https://api.whatsapp.com/send/?phone=19432020163&text&app_absent=0&lang=en"
               target="_blank"
               className="blue-text-gradient"
             >
-              +1 859 513 2910
+              +1 (943) 202-0163
             </a>
           </article>
         </div>

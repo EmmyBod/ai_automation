@@ -37,19 +37,19 @@ import {
 
   const achievements = [
     {
-      title: "Mastered custom development on WordPress (PHP), Shopify (Liquid), and Webflow (No-code logic), including integration of necessary plugins and apps",
+      title: "Built AI-powered workflows with n8n, Make.com, and AI agents.",
     },
     {
-      title: "Led the development of complex client stores and websites across multiple CMS platforms—Shopify, WordPress, and Webflow",
+      title: "Developed intelligent AI chatbots and customer-support agents.",
     },
     {
-      title: "Set up automated CI/CD workflows for Shopify themes (via GitHub Actions), containerized WordPress environments using Docker, and deployed Webflow sites.",
+      title: "Automated lead capture, qualification, follow-ups, and appointment booking.",
     },
     {
-      title: "Four-time recipient of the Torbita Institute Tech Scholarship (2019–2023) for excellence in eCommerce web development.",
+      title: "Integrated GoHighLevel, CRMs, APIs, and webhooks into business workflows.",
     },
     {
-      title: "Selected among the top 100 (out of 20k students) in the Google Cloud Training Program (2021), with a focus on hosting scalable WooCommerce and Shopify apps.",
+      title: "Automated repetitive processes to reduce manual work and improve efficiency.",
     },
    
   ]
@@ -108,433 +108,804 @@ import {
 
 const list = [
     {
-      id: "WordPress",
-      title: "WordPress",
+      id: "AI Automation",
+      title: "AI Automation",
     },
     {
-      id: "Webflow",
-      title: "Webflow",
+      id: "AI Agents",
+      title: "AI Agents",
     },
    
     {
-      id: "Shopify",
-      title: "Shopify",
+      id: "n8n",
+      title: "n8n",
     },
    
     {
-      id: "other",
-      title: "Other",
-    },
+      id: "CRM & GHL",
+      title: "CRM & GHL",
+  },
+    
+    {
+      id: "Integrations",
+      title: "Integrations",
+  },
+    
+    {
+      id: "All",
+      title: "All",
+  },
+    
   ];
 
-  export const javaProject = [
+  export const webProject  = [
     {
-      name: "F3 Formula",
+      name: "AI Lead Automation System",
       description:
-        "Fitness-focused Webflow site built from Figma, featuring bold visuals, smooth interactions, and a clean, performance-optimized layout.",
+        "Built an AI-powered lead automation system that captures incoming leads, qualifies prospects, updates the CRM, and triggers personalized follow-ups automatically.",
       tags: [
         {
-          name: "Finsweet attributes",
+          name: "AI_Automation",
           color: "blue-text-gradient",
         },
         {
-          name: "webflow CMS",
+          name: "n8n",
           color: "green-text-gradient",
         },
         {
-          name: "fitness",
+          name: "CRM",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "API_Integration",
           color: "pink-text-gradient",
         },
       ],
       image: crypto,
-      source_link: "https://www.f3formula.com/",
-      source_code_link: "https://www.f3formula.com/",
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
     {
-      name: "Impact Accelerator",
+      name: "AI Customer Support Agent",
       description:
-        "Developed a modern, responsive website by converting a Figma design into Webflow. Implemented CMS Collections and Lottie animations to enhance UI/UX",
+        "Developed an AI customer support agent that understands customer requests, provides instant responses, retrieves information, and escalates complex issues when human assistance is needed.",
       tags: [
         {
-          name: "Webflow Ecommerce",
+          name: "AIAgents",
           color: "blue-text-gradient",
         },
         {
-          name: "Jetboost",
+          name: "Chatbot",
           color: "green-text-gradient",
         },
         {
-          name: "Outseta",
+          name: "OpenAI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Automation",
           color: "pink-text-gradient",
         },
       ],
       image: yml,
-      source_link: "https://www.impactaccelerator.io/",
-      source_code_link: "https://www.impactaccelerator.io/",
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
     {
-      name: "Xio Trade",
+      name: "GoHighLevel Sales Automation",
       description:
-        "Built a sleek AI voice automation site in Webflow using a Figma design, featuring smooth animations and a layout that reflects the platform’s cutting-edge innovation.",
+        "Designed a complete GoHighLevel sales automation system that captures leads, manages pipeline stages, triggers follow-ups, and keeps customer interactions organized.",
       tags: [
         {
-          name: "Trade",
+          name: "GoHighLevel",
           color: "blue-text-gradient",
         },
         {
-          name: "LottieFiles",
+          name: "CRM_Automation",
           color: "green-text-gradient",
         },
         {
-          name: "Webflow build",
+          name: "Workflow",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "GHL",
           color: "pink-text-gradient",
         },
       ],
       image: crud,
-      source_link: "https://www.xio.ai/",
-      source_code_link: "https://www.xio.ai/",
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
     {
-      name: "RTM Website",
+      name: "AI Appointment Setter",
       description:
-        "Designed a postpartum parent community site—created the layout in Figma and built it in Webflow with a clean, responsive design.",
+        "Built an AI appointment-setting system that engages prospects, answers questions, qualifies leads, checks availability, and automatically schedules appointments.",
       tags: [
         {
-          name: "LottieFiles",
+          name: "AI_Agent",
           color: "blue-text-gradient",
         },
         {
-          name: "figma",
+          name: "CRM",
           color: "green-text-gradient",
         },
         {
-          name: "Webflow CMS",
+          name: "CalendarAPI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "n8n",
           color: "pink-text-gradient",
         },
       ],
       image: dwld,
-      source_link: "https://www.runtellmom.com/",
-      source_code_link: "https://www.runtellmom.com/",
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
     {
-      name: "Singles Hub",
+      name: "Make.com Business Automation",
       description:
-        "Built a responsive Webflow site for a Christian singles platform in Africa by converting a Figma design and integrating Memberstack for user authentication.",
+        "Automated repetitive business processes by connecting multiple applications with Make.com, enabling data synchronization, notifications, and task execution without manual intervention.",
       tags: [
         {
-          name: "Finsweet",
+          name: "Make.com",
           color: "blue-text-gradient",
         },
         {
-          name: "GoogleAnalytics",
+          name: "WorkflowAutomation",
           color: "green-text-gradient",
         },
         {
-          name: "Memberstack",
+          name: "API",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "BusinessAutomation",
           color: "pink-text-gradient",
         },
       ],
       image: onetomany,
-      source_link: "https://www.olimsingleshub.com/",
-      source_code_link: "https://www.olimsingleshub.com/",
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
     {
-      name: "Stay Vera",
+      name: "AI Sales Qualification",
       description:
-        "A sleek, mobile-responsive website crafted in Webflow from a Figma design. Prioritized smooth transitions and a calm, premium aesthetic to deliver a stylish and modern stay experience for travelers.",
+        "Developed an AI-powered lead qualification workflow that analyzes prospect information, scores leads, summarizes conversations, and routes qualified opportunities to the sales team",
       tags: [
         {
-          name: "Webflow CMS",
+          name: "AIAgents",
           color: "blue-text-gradient",
         },
         {
-          name: "Typeform",
+          name: "n8n",
           color: "green-text-gradient",
         },
         {
-          name: "Outseta",
+          name: "CRM",
           color: "pink-text-gradient",
         },
       ],
       image: oop,
-      source_link: "https://www.stayvera.com/",
-      source_code_link: "https://www.stayvera.com/",
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
   ];
   
   export const cProject = [
     {
-      name: "Velasca Fashion",
+      name: "Automated Client Onboarding",
       description:
-        "Developed a sleek and modern Shopify storefront for Velasca Fashion using the Dawn theme. Customized Liquid and JSON files for flexible layout control, aligning the design with the brand’s bold and polished identity.",
+        "Built an automated client onboarding workflow that collects information, creates CRM records, sends onboarding communications, assigns tasks, and keeps the entire process organized.",
       tags: [
         {
-          name: "Dawn theme",
+          name: "ClientOnboarding",
           color: "blue-text-gradient",
         },
         {
-          name: "Shopify App",
+          name: "n8n",
           color: "green-text-gradient",
         },
         {
-          name: "Fashion",
+          name: "CRM",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Automation",
           color: "pink-text-gradient",
         },
       ],
       image: trie,
-      source_link: "https://www.velasca.com/",
-      source_code_link: "https://www.velasca.com/",
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
     {
-      name: "H&S Beauty",
+      name: "API Integration Hub",
       description:
-        "Built a bold Shopify beauty store using the Horizon theme, with custom Liquid and JSON edits for brand-aligned design and flexibility.",
+        "Engineered API and webhook integrations that connect business applications, synchronize data, and automate processes across multiple platforms.",
       tags: [
         {
-          name: "Beauty",
+          name: "API_Integration",
           color: "blue-text-gradient",
         },
         {
-          name: "Shopify",
+          name: "Webhooks",
           color: "green-text-gradient",
         },
         {
-          name: "Horizon theme",
+          name: "n8n",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Automation",
           color: "pink-text-gradient",
         },
       ],
       image: ds,
-      source_link: "https://www.hshairandskin.com/",
-      source_code_link: "https://www.hshairandskin.com/",
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
     {
-      name: "RFE Rentals",
+      name: "AI Lead Automation System",
       description:
-        "eveloped a clean, responsive Shopify rental site with custom Dawn theme edits for flexible design and smooth user experience",
+        "Built an AI-powered lead automation system that captures incoming leads, qualifies prospects, updates the CRM, and triggers personalized follow-ups automatically.",
       tags: [
         {
-          name: "Rentals",
+          name: "AI_Automation",
           color: "blue-text-gradient",
         },
         {
-          name: "Dawn theme",
+          name: "n8n",
           color: "green-text-gradient",
         },
         {
-          name: "Shopify",
+          name: "CRM",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "API_Integration",
           color: "pink-text-gradient",
         },
       ],
-      image: cg,
-      source_link: "https://rentforevent.com/la/",
-      source_code_link: "https://rentforevent.com/la/",
+      image: crypto,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+
+    {
+      name: "AI Appointment Setter",
+      description:
+        "Built an AI appointment-setting system that engages prospects, answers questions, qualifies leads, checks availability, and automatically schedules appointments.",
+      tags: [
+        {
+          name: "AI_Agent",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CRM",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CalendarAPI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "n8n",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dwld,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+
+     {
+      name: "AI Sales Qualification",
+      description:
+        "Developed an AI-powered lead qualification workflow that analyzes prospect information, scores leads, summarizes conversations, and routes qualified opportunities to the sales team",
+      tags: [
+        {
+          name: "AIAgents",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "n8n",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CRM",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: oop,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
     
   ];
   
-  export const webProject = [
+  export const javaProject= [
     {
-      name: "Emmy's Portfolio",
+      name: "AI Customer Support Agent",
       description:
-        "Created an impressive website made using WordPress with 3D graphics and animations to bring their content to life. Responsive webpage is made with user friendly interface",
+        "Developed an AI customer support agent that understands customer requests, provides instant responses, retrieves information, and escalates complex issues when human assistance is needed.",
       tags: [
         {
-          name: "WordPress",
+          name: "AIAgents",
           color: "blue-text-gradient",
         },
         {
-          name: "Elementor",
+          name: "Chatbot",
           color: "green-text-gradient",
         },
         {
-          name: "figma",
+          name: "OpenAI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Automation",
           color: "pink-text-gradient",
         },
       ],
-      image: port_3d,
-      source_link: "https://emmybod.github.io/portfolio_site/",
-      source_code_link: "https://emmybod.github.io/portfolio_site/",
+      image: yml,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
     {
-      name: "Dental Website",
+      name: "AI Appointment Setter",
       description:
-        "Redesigned a professional dental clinic website using WordPress and Elementor. Delivered a responsive, SEO-optimized 20+ page platform with booking functionality, and iframe embeds",
+        "Built an AI appointment-setting system that engages prospects, answers questions, qualifies leads, checks availability, and automatically schedules appointments.",
       tags: [
         {
-          name: "Custom CSS",
+          name: "AI_Agent",
           color: "blue-text-gradient",
         },
         {
-          name: "Elementor",
+          name: "CRM",
           color: "green-text-gradient",
         },
         {
-          name: "WordPress",
+          name: "CalendarAPI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "n8n",
           color: "pink-text-gradient",
         },
       ],
-      image: dental,
-      source_link: "https://plainlanddental.com.au",
-      source_code_link: "https://plainlanddental.com.au",
+      image: dwld,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
     {
-      name: "Multi-Vendor Marketplace",
+      name: "AI Sales Qualification",
       description:
-        "Developed a fully functional multi-vendor marketplace with affiliate referral features and e-commerce capabilities. Built with WordPress and Divi page builder, supports custom vendor dashboards and 3D UI elements for an engaging UX",
+        "Developed an AI-powered lead qualification workflow that analyzes prospect information, scores leads, summarizes conversations, and routes qualified opportunities to the sales team",
       tags: [
         {
-          name: "Divi",
+          name: "AIAgents",
           color: "blue-text-gradient",
         },
         {
-          name: "WPForm plugin",
+          name: "n8n",
           color: "green-text-gradient",
         },
         {
-          name: "WordPress",
+          name: "CRM",
           color: "pink-text-gradient",
         },
       ],
-      image: market,
-      source_link: "https://tradelineexpress.co",
-      source_code_link: "https://tradelineexpress.co",
+      image: oop,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
-   
-    {
-      name: "Catalyst AG Partners",
-      description:
-        "Converted a Figma design into a fully functional WordPress website using custom CSS and essential plugins to ensure responsiveness, clean layout, and optimal performance.",
-      tags: [
-        {
-          name: "Divi",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "WordPress",
-          color: "green-text-gradient",
-        },
-        {
-          name: "custom css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jsp,
-      source_link: "https://catalystagpartners.com/",
-      source_code_link: "https://catalystagpartners.com/",
-    },
-    {
-      name: "Aggressor Horns",
-      description:
-        "Transformed a detailed Figma design into a visually engaging and functional platform tailored to the brand’s style using Elementor Pro and essential plugins.",
-      tags: [
-        {
-          name: "Elementor pro",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "custom css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "figma",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: chitchat,
-      source_link: "https://aggressorhorns.com/",
-      source_code_link: "https://www.figma.com/design/ctVk6pM3ehWvbkfYd0J0p2/Aggressor?node-id=0-1&t=PktGBtbAgoUWY4TY-1",
-    },
-    {
-      name: "Rizz Rentals",
-      description:
-        "Developed a sleek, fully responsive website for Rizz Rentals by converting Figma designs into a modern interface using Elementor page builder and CSS",
-      tags: [
-        {
-          name: "custom CSS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "RankMath",
-          color: "green-text-gradient",
-        },
-        {
-          name: "WordPress",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: notes,
-      source_link: "https://rizzrentals.com/",
-      source_code_link: "https://rizzrentals.com/",
-    },
+    
+    
   ];
   
   export const otherProject = [
-    { 
-      name: "MVV Watches",
+    {
+      name: "AI Lead Automation System",
       description:
-        "Designed in AdobeXD and developed using Wix, this fashion-brand website showcases MVV Watches with a sleek, responsive layout that highlights the brand’s bold identity and modern aesthetic.",
+        "Built an AI-powered lead automation system that captures incoming leads, qualifies prospects, updates the CRM, and triggers personalized follow-ups automatically.",
       tags: [
         {
-          name: "Wix",
+          name: "AI_Automation",
           color: "blue-text-gradient",
         },
         {
-          name: "Fashion",
+          name: "n8n",
           color: "green-text-gradient",
         },
         {
-          name: "SEO",
+          name: "CRM",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "API_Integration",
           color: "pink-text-gradient",
         },
       ],
-      image: be,
-      source_link: "https://www.mvvwatches.com/",
-      source_code_link: "https://www.mvvwatches.com/",
+      image: crypto,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+    
+    {
+      name: "GoHighLevel Sales Automation",
+      description:
+        "Designed a complete GoHighLevel sales automation system that captures leads, manages pipeline stages, triggers follow-ups, and keeps customer interactions organized.",
+      tags: [
+        {
+          name: "GoHighLevel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CRM_Automation",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Workflow",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "GHL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: crud,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+    {
+      name: "AI Appointment Setter",
+      description:
+        "Built an AI appointment-setting system that engages prospects, answers questions, qualifies leads, checks availability, and automatically schedules appointments.",
+      tags: [
+        {
+          name: "AI_Agent",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CRM",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CalendarAPI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "n8n",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dwld,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+   
+    
+  ];
+  export const integrations = [
+     {
+      name: "AI Lead Automation System",
+      description:
+        "Built an AI-powered lead automation system that captures incoming leads, qualifies prospects, updates the CRM, and triggers personalized follow-ups automatically.",
+      tags: [
+        {
+          name: "AI_Automation",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "n8n",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CRM",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "API_Integration",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: crypto,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+    {
+      name: "AI Customer Support Agent",
+      description:
+        "Developed an AI customer support agent that understands customer requests, provides instant responses, retrieves information, and escalates complex issues when human assistance is needed.",
+      tags: [
+        {
+          name: "AIAgents",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Chatbot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Automation",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: yml,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+    {
+      name: "GoHighLevel Sales Automation",
+      description:
+        "Designed a complete GoHighLevel sales automation system that captures leads, manages pipeline stages, triggers follow-ups, and keeps customer interactions organized.",
+      tags: [
+        {
+          name: "GoHighLevel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CRM_Automation",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Workflow",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "GHL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: crud,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+    {
+      name: "AI Appointment Setter",
+      description:
+        "Built an AI appointment-setting system that engages prospects, answers questions, qualifies leads, checks availability, and automatically schedules appointments.",
+      tags: [
+        {
+          name: "AI_Agent",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CRM",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CalendarAPI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "n8n",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dwld,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+    {
+      name: "Make.com Business Automation",
+      description:
+        "Automated repetitive business processes by connecting multiple applications with Make.com, enabling data synchronization, notifications, and task execution without manual intervention.",
+      tags: [
+        {
+          name: "Make.com",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "WorkflowAutomation",
+          color: "green-text-gradient",
+        },
+        {
+          name: "API",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "BusinessAutomation",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: onetomany,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
 
-    {
-      name: "Dreamers Logistics",
+     {
+      name: "Automated Client Onboarding",
       description:
-        "A bold, transport-focused website designed in Figma and built on Squarespace, integrating plugins like WPForms and Elementor for enhanced flexibility and user experience.",
+        "Built an automated client onboarding workflow that collects information, creates CRM records, sends onboarding communications, assigns tasks, and keeps the entire process organized.",
       tags: [
         {
-          name: "transport",
+          name: "ClientOnboarding",
           color: "blue-text-gradient",
         },
         {
-          name: "Squarespace",
+          name: "n8n",
           color: "green-text-gradient",
         },
         {
-          name: "SEO",
+          name: "CRM",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Automation",
           color: "pink-text-gradient",
         },
       ],
-      image: sql,
-      source_link: "https://www.dreamersmoving.com/",
-      source_code_link: "https://www.dreamersmoving.com/",
+      image: trie,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+ 
+    
+    
+  ];
+  export const all = [
+    {
+      name: "AI Customer Support Agent",
+      description:
+        "Developed an AI customer support agent that understands customer requests, provides instant responses, retrieves information, and escalates complex issues when human assistance is needed.",
+      tags: [
+        {
+          name: "AIAgents",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Chatbot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Automation",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: yml,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
     {
-      name: "Safehands Medicals",
+      name: "GoHighLevel Sales Automation",
       description:
-        "Built with WordPress using Elementor and WPForms, this responsive medical website reflects a clean, professional healthcare brand with user-friendly design.",
+        "Designed a complete GoHighLevel sales automation system that captures leads, manages pipeline stages, triggers follow-ups, and keeps customer interactions organized.",
       tags: [
         {
-          name: "Health",
+          name: "GoHighLevel",
           color: "blue-text-gradient",
         },
         {
-          name: "WordPress",
+          name: "CRM_Automation",
           color: "green-text-gradient",
         },
         {
-          name: "Elementor",
+          name: "Workflow",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "GHL",
           color: "pink-text-gradient",
         },
       ],
-      image: mini,
-      source_link: "https://safehandshhc.com/",
-      source_code_link: "https://safehandshhc.com/",
+      image: crud,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+    {
+      name: "AI Appointment Setter",
+      description:
+        "Built an AI appointment-setting system that engages prospects, answers questions, qualifies leads, checks availability, and automatically schedules appointments.",
+      tags: [
+        {
+          name: "AI_Agent",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CRM",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CalendarAPI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "n8n",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dwld,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+    {
+      name: "Make.com Business Automation",
+      description:
+        "Automated repetitive business processes by connecting multiple applications with Make.com, enabling data synchronization, notifications, and task execution without manual intervention.",
+      tags: [
+        {
+          name: "Make.com",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "WorkflowAutomation",
+          color: "green-text-gradient",
+        },
+        {
+          name: "API",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "BusinessAutomation",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: onetomany,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+
+     {
+      name: "Automated Client Onboarding",
+      description:
+        "Built an automated client onboarding workflow that collects information, creates CRM records, sends onboarding communications, assigns tasks, and keeps the entire process organized.",
+      tags: [
+        {
+          name: "ClientOnboarding",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "n8n",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CRM",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Automation",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: trie,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
+    },
+    {
+      name: "API Integration Hub",
+      description:
+        "Engineered API and webhook integrations that connect business applications, synchronize data, and automate processes across multiple platforms.",
+      tags: [
+        {
+          name: "API_Integration",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Webhooks",
+          color: "green-text-gradient",
+        },
+        {
+          name: "n8n",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Automation",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ds,
+      source_link: "https://github.com/EmmyBod",
+      source_code_link: "https://github.com/EmmyBod",
     },
    
     
@@ -542,64 +913,64 @@ const list = [
   
   const experiences = [
     {
-      title: "Webflow Developer",
+      title: "AI Integration & Workflow Specialist",
       company_name: "OMTech Technologies",
       icon: bny,
       iconBg: "#383E56",
       date: "November 2024 - Present",
       link: "",
       points: [
-        "I specialized in converting Figma or Adobe XD designs into fully functional Webflow projects, ensuring clean HTML, CMS integration, or responsive email templates as needed.",
-        "Every Webflow site I built was crafted with Webflow's Designer and CMS, optimized for all breakpoints, and delivered with speed and precision.",
-        "Ensure pixel-perfect layouts using Webflow’s visual canvas, implement responsive design across all devices, and leverage Webflow's built-in performance tools for fast-loading experiences.",
+        "Designed and deployed AI-powered automation workflows using Make.com, n8n, and OpenAI APIs",
+        "Integrated AI capabilities into business applications to automate content creation, customer interactions, and routine business processes",
+        "Built scalable automation pipelines that connected AI models, APIs, databases, and cloud services",
       ],
         link: "https://omtechmasters.co.uk/",
     },
     {
-      title: "Senior WordPress developer",
+      title: "Automation & Systems Developer",
       company_name: "Deutrix Tech ",
       icon: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-national-security-agency-crowdfunding-flaticons-lineal-color-flat-icons-2.png",
       iconBg: "#383E56",
-      date: "April 2019 - March 2020 ",
+      date: "April 2023 - Present",
       link: "",
       points: [
        
-        "Lead all WordPress web development projects and create eCommerce website execution.",
-        "Designing website front End prototypes using Adobe XD or Figma.",
-        "Developing the website using ELEMENTOR PRO, or another site builder such as Divi",
+        "Built and deployed multi-step AI automation workflows using Make.com and n8n.",
+        "Designed and implemented API integrations between SaaS platforms and internal business systems",
+        "Developed AI-powered automation solutions using OpenAI APIs for content generation, customer support, and workflow optimization.",
         
       ],
       link: "https://deutrix.com/",
     },
     {
-      title: "Junior Shopify Developer",
+      title: "API Integration & Backend Automation",
       company_name: "Zenbit Tech (INTERN)",
       icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
       iconBg: "#E6DEDD",
-      date: "April 2018 - February 2019",
+      date: "April 2022 - February 2023",
       link: "",
       points: [
-        "I helped clients convert designs into high-quality Shopify themes, Shopify custom stores, or Shopify email templates.",
-        "All Shopify stores I built are fully responsive, optimized for conversions, and delivered promptly with clean Liquid code.",
-        "Pixel-perfect design, mobile-friendly interfaces, and fast-loading pages for an excellent user experience.",
+        "Designed and implemented AI-powered automation systems for business operations and process optimization",
+        "Built CRM automation workflows to streamline customer management and sales processes.",
+        "Developed lead scraping, enrichment, and qualification workflows to support marketing and sales teams",
       ],
       link: "https://zenbit.tech/",
     },
-    {
-      title: "Website Speed Optimization ",
-      company_name: "Google Cloud",
-      icon: "https://img.icons8.com/fluency/344/google-cloud.png",
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Apr 2021",
-      link: "",
-      points: [
-        "Through intensive testing, I identify and resolve all sources of slowness and optimize key web vital scores. ",
-        "Collaborating with cross-functional technologies.",
-        " On both mobile and desktop devices, I strive to have your site loaded quickly under 2 seconds.",
-        "Additional self-paced labs were provided to practice on Qwiklabs a platform by Google",
-      ],
-      link: "https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
-    },
+    // {
+    //   title: "Website Speed Optimization ",
+    //   company_name: "Google Cloud",
+    //   icon: "https://img.icons8.com/fluency/344/google-cloud.png",
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Apr 2021",
+    //   link: "",
+    //   points: [
+    //     "Through intensive testing, I identify and resolve all sources of slowness and optimize key web vital scores. ",
+    //     "Collaborating with cross-functional technologies.",
+    //     " On both mobile and desktop devices, I strive to have your site loaded quickly under 2 seconds.",
+    //     "Additional self-paced labs were provided to practice on Qwiklabs a platform by Google",
+    //   ],
+    //   link: "https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
+    // },
    
   ];
   

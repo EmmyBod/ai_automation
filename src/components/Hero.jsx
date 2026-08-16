@@ -16,13 +16,14 @@ const Hero = () => {
     init(textRef.current, {
       showCursor: true,
       strings: [
-        "WordPress Developer",
-        "CMS Memberstack",
-        " Webflow Developer ",
-        "Shopify Developer ",
-        "Figma to Webflow Expert",
-        "Elementor Pro",
-        "SEO Specialist",
+        "AI Automation Developer",
+        "n8n Automation",
+        "AI Agents & Chatbots",
+        " GoHighLevel (GHL) Expert",
+        "Verified Partner Make.com",
+        "Workflow Automation",
+        "CRM Automation",
+        "API Integration",
       ],
     });
   }, []);
@@ -50,10 +51,7 @@ const Hero = () => {
             </h3>
 
             <div className="absolute link1">
-              <a
-                href="https://www.upwork.com/freelancers/~01a2a841e7e1767e4e"
-                target="_blank"
-              >
+              <a href="https://github.com/EmmyBod" target="_blank">
                 <AiOutlineGithub />
               </a>
               <a
@@ -69,7 +67,7 @@ const Hero = () => {
                 <AiOutlineInstagram />
               </a>
               <a
-                href="https://api.whatsapp.com/send/?phone=18595132970&text&app_absent=0&lang=en"
+                href="https://api.whatsapp.com/send/?phone=19432020163&text&app_absent=0&lang=en"
                 target="_blank"
               >
                 <BiLinkAlt />
